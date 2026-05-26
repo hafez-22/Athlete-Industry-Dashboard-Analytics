@@ -1,4 +1,4 @@
-![Banner](Home.png)
+![Banner](Image/Home.png)
 
 # 📊 Athlete Industry Analytics Dashboard
 
