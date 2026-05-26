@@ -6,7 +6,7 @@
 
 ## Overview
 
-This project presents an end-to-end business intelligence solution developed to analyze operational and sales performance within the fitness industry.
+This project presents an end-to-end business intelligence solution developed to analyze operational and sales performance within the Athlete industry.
 
 The dashboard was designed to convert raw transactional data into meaningful business insights that support strategic decision-making across multiple areas including customer behavior, product performance, profitability, returns, and time-based trends.
 
@@ -154,4 +154,4 @@ Customer analytics identified valuable purchasing behaviors and retention opport
 
 In addition, return analysis exposed operational inefficiencies that negatively impacted both profitability and customer experience.
 
-Overall, the dashboard provides management with a centralized analytical solution that improves visibility into business performance, enables faster decision-making, and supports more effective data-driven business strategies within the fitness industry.
+Overall, the dashboard provides management with a centralized analytical solution that improves visibility into business performance, enables faster decision-making, and supports more effective data-driven business strategies within the Athlete industry.
