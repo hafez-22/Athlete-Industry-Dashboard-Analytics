@@ -8,14 +8,14 @@ This section documents the database optimization journey, tracking the architect
 
 ### 1️⃣ Operational Snowflake Structure (Normalization)
 The raw transactional system was strictly normalized to eliminate data redundancy, spreading entity attributes across isolated lookup grids.
-![Normalized Schema](Image/Normalization.png)
+![Normalized Schema]![](../image/Normalization.png)
 * **Relational Complexity:** Tables like `product` required multi-hop table joins through `product-subcategory` to resolve context against transactional headers.
   
 * **Geographic Fragmentation:** Spatial analysis required traversing distinct `Geography` and `Region` boundaries before reaching the core fact records.
 
 ### 2️⃣ Production Analytical Star Schema (Denormalization)
 To eliminate calculation lag and guarantee instantaneous filter propagation, the architecture collapses the lookup layers into highly optimized dimensional anchors.
-![Denormalized Star Schema](Image/Denormalization.png)
+![Denormalized Star Schema]![](../image/Denormalization.png)
 * **The Analytical Core:** Built around two primary operational fact engines: `sales-details` (tracking outbound velocity) and `sales-returns` (monitoring pipeline attrition).
   
 * **Dimensional Consolidation:** Flattened lookup tables establish clean **Many-to-One (`*:1`)** single-directional filtering pathways directly targeting fact records.
@@ -25,7 +25,7 @@ To eliminate calculation lag and guarantee instantaneous filter propagation, the
 ## 🔄 Data Pipeline Consolidation (Data Flow Mapping)
 
 The migration logic systematically collapses **9 isolated normalized entities** into **5 production-ready analytical assets**:
-![Data Flow Diagram](Image/Data_Flow_Diagram.png)
+![Data Flow Diagram]![](../image/Data_Flow_Diagram.png)
 
 * **`Customers` Dimension:** Consolidates raw consumer metadata into a unified master tracking grid.
   
