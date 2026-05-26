@@ -47,42 +47,42 @@ The primary objectives of this analysis were to:
 ## Dashboard Navigation
 
 ### 📈 Overview Dashboard
-[View Dashboard](Overview.md)
+[View Dashboard](Dashboards/Overview.md)
 
 Provides a consolidated view of overall business performance, including revenue, profit, orders, and high-level KPIs.
 
 ---
 
 ### 👥 Customer Analytics
-[View Dashboard](Customers_Analytics.md)
+[View Dashboard](Dashboards/Customers_Analytics.md)
 
 Focuses on customer segmentation, purchasing behavior, retention patterns, and customer contribution to revenue generation.
 
 ---
 
 ### 📦 Product Analytics
-[View Dashboard](Product_Analytics.md)
+[View Dashboard](Dashboards/Product_Analytics.md)
 
 Analyzes product performance, category trends, profitability distribution, and sales contribution across products.
 
 ---
 
 ### ⏱ Time Analytics
-[View Dashboard](Time_Analytics.md)
+[View Dashboard](Dashboards/Time_Analytics.md)
 
 Examines monthly and yearly performance trends, seasonality effects, and long-term business growth patterns.
 
 ---
 
 ### 🔄 Return Analytics
-[View Dashboard](Return_Analytics.md)
+[View Dashboard](Dashboards/Return_Analytics.md)
 
 Investigates return behavior, return rates, and potential operational issues affecting profitability and customer satisfaction.
 
 ---
 
 ### 🧱 Data Modeling
-[View Documentation](Data_Modeling.md)
+[View Documentation](Dashboards/Data_Modeling.md)
 
 Explains the data preparation and modeling process, including relationships, schema design, and analytical structure development.
 
