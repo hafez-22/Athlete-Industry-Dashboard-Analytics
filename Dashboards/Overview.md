@@ -7,7 +7,7 @@ This analysis establishes the macro corporate baseline across global markets, tr
 ## 💻 Executive Sales View
 
 The primary landing view acts as the strategic monitor for corporate health, auditing revenue scales, operational spend, fulfillment volumes, and channel distribution.
-![Sales Overview](Overview.png)
+![Sales Overview](../Image/Overview.png)
 
 ### 📈 Core Business Drivers & Operational Balance
 
@@ -31,11 +31,11 @@ To effectively cross-examine macro metrics against localized market variations, 
 
 ### 1️⃣ Initiating the Context Pivot
 Users can directly isolate regional anomalies by utilizing a native right-click drill-through on targeted high-volume nodes—such as **Canada**—within the primary country breakdown chart.
-![Drill Through Navigation](Drill_throw.png)
+![Drill Through Navigation](../Image/Drill_throw.png)
 
 ### 2️⃣ Structural Root-Cause Visualization
 The drill-through target page automatically updates context filters, deploying a dynamic **Decomposition Tree** to dismantle localized losses across provincial hierarchies down to individual cities and product sub-sectors.
-![Location Deep Dive](Location.png)
+![Location Deep Dive](../Image/Location.png)
 
 ---
 
