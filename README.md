@@ -6,42 +6,35 @@
 
 ## Overview
 
-This project presents an end-to-end business intelligence solution developed to analyze operational and sales performance within the Athlete industry.
+This project presents an end-to-end Business Intelligence solution developed to analyze sales performance, operational efficiency, customer behavior, and profitability within the fitness and supplement industry.
 
-The dashboard was designed to convert raw transactional data into meaningful business insights that support strategic decision-making across multiple areas including customer behavior, product performance, profitability, returns, and time-based trends.
+The dashboard transforms raw transactional data into a structured analytical model designed to uncover the key drivers behind revenue growth, margin performance, return activity, and regional operational trends.
 
-The analytical process focused not only on visualizing KPIs, but also on understanding the underlying drivers behind performance fluctuations and operational patterns.
-
----
-
-## Business Context
-
-Fitness businesses operate through complex interactions between memberships, products, customer engagement, and operational activities.
-
-As data volume increases, identifying performance trends manually becomes inefficient and limits the ability to make timely decisions.
-
-This project addresses that challenge by building a centralized analytical dashboard capable of monitoring business performance from multiple perspectives.
+Rather than focusing only on high-level KPIs, the analysis was built to provide deeper visibility into the business factors directly impacting profitability, customer retention, and operational performance.
 
 ---
 
-## Objectives
+## Technical & Business Context
 
-The primary objectives of this analysis were to:
+Managing sales operations across multiple regions, product categories, and customer segments creates significant analytical complexity. As transaction volumes grow, traditional reporting methods become increasingly limited in identifying performance gaps and operational inefficiencies.
 
-- Monitor overall business performance through interactive KPIs
+To address these challenges, the project introduces a centralized analytical framework that consolidates transactional data into an optimized data model. This approach enables leadership teams to monitor financial performance, evaluate operational trends, and identify critical business issues through interactive and data-driven analysis.
 
-- Identify revenue and profit drivers
+---
 
-- Analyze customer purchasing and engagement behavior
+## Project Objectives
 
-- Evaluate product contribution and category performance
+* **Centralized KPI Monitoring:** Build a unified analytical model to track core business metrics including Revenue ($60.59M), Profit ($41.56M), and overall margin performance (68.7%).
 
-- Track return patterns and operational inefficiencies
+* **Profitability & Cost Analysis:** Analyze operational cost behavior and identify seasonal fluctuations affecting profitability, particularly during high-expense periods such as February and October.
 
-- Understand seasonal and time-based business trends
+* **Returns & Revenue Leakage Analysis:** Measure the financial impact of return activity by tracking operational losses associated with rejected and damaged orders ($6.39M across 1,546 return cases).
 
-- Build a scalable and structured analytical model
+* **Customer Behavior Analytics:** Segment customers based on purchasing activity and retention patterns to distinguish loyal customer groups from potential churn risks.
 
+* **Product Performance Evaluation:** Compare product categories and subcategories based on revenue contribution, profitability, return volume, and sales performance.
+
+* **Regional Performance Analysis:** Develop regional drill-through analysis to identify market-level opportunities and operational issues across different geographic locations, including detailed city-level performance diagnostics.
 ---
 
 ## Dashboard Navigation
@@ -116,42 +109,38 @@ The project followed a structured analytical workflow that included:
 
 ## Key Outcomes
 
-The analysis helped highlight several important business patterns, including:
+* Products priced below $1,000 proved to be the company’s strongest revenue driver, generating nearly $36M in revenue and around $24M in net profit, confirming the effectiveness of the mid-range pricing strategy.
 
-- Variations in profitability across product categories
-  
-- Differences in customer purchasing behavior
+* Customer behavior analysis identified a stable retention segment, with 235 customers placing exactly four orders, while 66 inactive customers were flagged as potential churn risks.
 
-- Seasonal fluctuations in sales performance
+* Revenue performance showed consistent long-term growth, reaching a total of $60.59M across the analyzed period.
 
-- Operational impact of return activity
+* Return analysis uncovered approximately $6.39M in lost value linked to 1,546 damaged or rejected orders, highlighting operational inefficiencies affecting profitability.
 
-- High-performing segments contributing most to revenue growth
+* The Southwest region emerged as the strongest-performing market, leading both customer acquisition and total profit generation.
 
 ---
 
 ## Key Insights
 
-- A small number of products contributed disproportionately to total revenue and profitability.
-  
-- Certain customer segments demonstrated significantly higher purchasing activity and retention rates.
-  
-- Seasonal demand patterns had a major impact on sales performance across time periods.
-  
-- High sales volume did not always translate into strong profitability due to margin variation and return activity.
-  
-- Return analysis highlighted operational inefficiencies affecting customer experience and overall business performance.
-  
+* Premium products priced above $2,000 achieved the highest gross margin percentage (71.3%), yet contributed less to total profit compared to mid-range product categories with stronger sales volume.
+
+* Despite being the company’s largest profit center, the Southwest also recorded the highest return activity, followed closely by Canada, indicating possible logistics or fulfillment inefficiencies.
+
+* Supplement products represented the largest source of return-related losses, particularly the 100% Egg Protein line, followed by Pure Casein and Hydrolyzed Whey products.
+
+* Whey Protein and Egg Protein categories dominated overall return volume, significantly exceeding apparel-related products such as jerseys and shorts.
+
+* Monthly operational costs experienced noticeable spikes during February and October, creating pressure on short-term profitability despite stable annual growth.
+
 ---
 
-## Conclusion
+## Conclusion & Executive Summary
 
-The analysis revealed that overall business performance was driven by a small group of high-performing products, customer segments, and peak seasonal periods.
+The analysis shows that the business maintains strong overall financial performance, supported by steady revenue growth and healthy gross margins. However, profitability remains highly sensitive to return activity, operational inefficiencies, and seasonal cost fluctuations.
 
-Although revenue achieved strong growth across multiple categories, profitability did not always increase at the same rate due to differences in product margins, operational costs, and return activity.
+The findings highlight returns management as a critical operational priority, particularly within supplement product lines that contribute heavily to revenue leakage and customer dissatisfaction.
 
-Customer analytics identified valuable purchasing behaviors and retention opportunities, while time analysis highlighted clear seasonal trends that can support more accurate forecasting and strategic planning.
+Regional analysis also revealed that high-performing markets such as the Southwest continue to face operational and fulfillment challenges impacting both profitability and customer experience.
 
-In addition, return analysis exposed operational inefficiencies that negatively impacted both profitability and customer experience.
-
-Overall, the dashboard provides management with a centralized analytical solution that improves visibility into business performance, enables faster decision-making, and supports more effective data-driven business strategies within the Athlete industry.
+Overall, the dashboard provides management with a centralized analytical solution that improves visibility into business performance and supports more accurate, data-driven strategic decision-making.
