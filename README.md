@@ -75,7 +75,7 @@ Examines monthly and yearly performance trends, seasonality effects, and long-te
 ---
 
 ### 🔄 Return Analytics
-[View Dashboard](Dashboards/Return_Analytics.md)
+[View Dashboard](Dashboards/Returns_Analytics.md)
 
 Investigates return behavior, return rates, and potential operational issues affecting profitability and customer satisfaction.
 
