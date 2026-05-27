@@ -41,7 +41,7 @@ The analysis focused on answering several critical business questions:
 
 ## Dashboard Navigation
 
-### 📈 Overview Dashboard
+### 📈 Sales Overview Dashboard
 [View Dashboard](Dashboards/Overview.md)
 
 Provides a consolidated view of overall business performance, including revenue, profit, orders, and high-level KPIs.
