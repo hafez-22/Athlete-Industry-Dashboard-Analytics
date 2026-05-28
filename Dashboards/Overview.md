@@ -1,58 +1,101 @@
-# 📊 Sales Overview & Localized Deep-Dive
+# 📊 Sales Overview & Regional Deep Dive
 
-This analysis establishes the macro corporate baseline across global markets, tracking structural operational growth before executing a programmatic deep-dive into regional performance variance.
+This dashboard provides a high-level analysis of sales performance, operational efficiency, and regional trends, followed by a drill-through investigation to identify localized performance issues.
 
 ---
 
-## 💻 Executive Sales View
+## 💻 Executive Sales Overview
 
-The primary landing view acts as the strategic monitor for corporate health, auditing revenue scales, operational spend, fulfillment volumes, and channel distribution.
+The overview page monitors overall business performance across revenue, profitability, sales volume, and distribution channels.
+
 ![Sales Overview](../Image/Overview.png)
 
-### 📈 Core Business Drivers & Operational Balance
+### 📈 Performance Highlights
 
-* **Top-Line Volume Scaling:** Annual performance captured **$33.07M in Total Revenue**, reflecting steady market expansion with a clear **+20.15% upward growth** track against the prior year.
-  
-* **Profit Realization:** Baseline efficiency preserved high margins, hitting **$22.58M in Gross Profit (+18.94% YoY)**.
-  
-* **Logistical Compression:** Operational efficiency improved significantly as Total Cost of Goods Sold dropped sharply to **$10.49M (a decrease of -22.84% YoY)**.
-  
-* **Fulfillment Velocity:** Product movement accelerated across all key sectors, securing a strong throughput of **103,658 total units sold (+27.46%)**.
-  
-* **Category Dependency:** The overall business engine relies heavily on a single primary anchor, with the **Protein** segment single-handedly commanding **$28M** of sales and moving **34K transactional units**.
-  
-* **Structural Distribution:** Inbound revenue remains evenly balanced between **Warehouse distribution channels at 48.69%** and dedicated **Supplement Stores at 43.13%**.
+- Total Revenue reached **$33.07M**, growing by **20.15% YoY**
+- Gross Profit increased to **$22.58M**
+- Total Cost declined by **22.84%**, improving operational efficiency
+- Sales Volume reached **103,658 units**, reflecting strong demand growth
 
 ---
 
-## 🔄 Programmatic Navigation: The Drill-Through Pathway
+### 🏷️ Product & Channel Insights
 
-To effectively cross-examine macro metrics against localized market variations, the dashboard establishes a continuous user navigation path to translate spatial data.
+- **Protein** remained the primary revenue driver, generating nearly **$28M** in sales and **34K units sold**
+- **Carbs** ranked as the second-largest category with approximately **$3M** in revenue
+- Revenue distribution was mainly driven by:
+  - **Warehouse:** 48.69%
+  - **Supplement Stores:** 43.13%
 
-### 1️⃣ Initiating the Context Pivot
-Users can directly isolate regional anomalies by utilizing a native right-click drill-through on targeted high-volume nodes—such as **Canada**—within the primary country breakdown chart.
+---
+
+### 🌍 Regional Market Performance
+
+- The **United States** generated the highest revenue contribution at **$19M**
+- **Canada** ranked second with over **$5M** in revenue
+- France and the United Kingdom generated approximately **$3M** each
+
+---
+
+# 🔄 Regional Analysis By Drill-Through 
+
+The dashboard includes a drill-through workflow that allows users to move from overall business performance into detailed regional analysis.
+
+## 1️⃣ Regional Navigation
+
+Users can drill directly into a selected country from the main country performance chart.
+
 ![Drill Through Navigation](../Image/Drill_throw.png)
 
-### 2️⃣ Structural Root-Cause Visualization
-The drill-through target page automatically updates context filters, deploying a dynamic **Decomposition Tree** to dismantle localized losses across provincial hierarchies down to individual cities and product sub-sectors.
+---
+
+## 2️⃣ Root Cause Analysis
+
+The drill-through page uses a **Decomposition Tree** to break down performance by province, city, and product category.
+
 ![Location Deep Dive](../Image/Location.png)
 
 ---
 
-## 🔍 The Canada Case Study: Uncovering the Root Cause of Contraction
+# 🇨🇦 Canada Market Breakdown
 
-### 📉 Localized Data Breakdown
-* **The Geographic Anomaly:** While global corporate metrics enjoyed double-digit upward growth, drilling into **Canada** isolates a severe regional downturn. Localized performance contracted uniformly, losing **-4.9% in Revenue** (an absolute net reduction of **-$1,385K**), dropping **-5.02% in Gross Profit**, and shrinking the **Average Order Value (AOV) by -$2.67K**.
+Although overall business performance showed strong growth, Canada experienced a noticeable decline across multiple KPIs.
 
-* **Isolating the Variance via Decomposition:**
-  * Structural fracturing identifies the province of **Ontario** as the central point of failure, absorbing a massive **-$686K** of the total territory losses.
-    
-  * Splitting Ontario down to local economic nodes demonstrates that the revenue bleeding is highly concentrated inside the city of **Toronto**, accounting for a localized loss of **-$325K**.
-  
-  * At the deepest operational level, the failure point within Toronto is tied directly to demand drops in two specific categories: **Protein (-$258K)** and **Carbs (-$63K)**.
-    
-* **Performance Outliers:** Despite the sweeping regional contraction, corporate customer accounts like **Balanced Store** and **Monsteroryx** remained highly resilient, locking in individual revenue streams of **$0.30M** respectively.
+## 📉 Performance Variance vs Last Year
 
-### Analytical Takeaway
+- Revenue decreased by **4.9% (-$1.38M)**
+- Profit declined by **5.02%**
+- Average Order Value dropped by **$2.67K**
+- Customer count and order volume both declined slightly
 
-The analysis highlights a strong overall business performance driven by revenue growth, higher sales volume, and improved cost efficiency. However, the data also shows a heavy dependence on the Protein category as the primary revenue driver.
+---
+
+## 🔍 Revenue Decline Breakdown
+
+The decomposition analysis identified the main sources of decline:
+
+- **Ontario** recorded the largest revenue loss at **-$686K**
+- Within Ontario, **Toronto** accounted for the biggest decline at **-$325K**
+- Product-level analysis showed:
+  - **Protein:** -$258K
+  - **Carbs:** -$63K**
+
+---
+
+## 👥 Top Performing Customers
+
+Despite the regional decline, several accounts maintained stable revenue performance, including:
+
+- Monsteroryx
+- Balanced Store
+- Haven Sports
+
+---
+
+# 🎯 Analytical Takeaway
+
+The analysis highlights strong overall business growth supported by higher revenue, increased sales volume, and improved cost efficiency.
+
+However, the business remains highly dependent on the **Protein** category as its primary revenue driver. While the category performs strongly at a global level, localized declines within the same segment had a noticeable impact on regional performance.
+
+The drill-through analysis helped isolate the exact locations and product categories contributing to the decline, allowing performance issues to be identified more quickly and accurately.
