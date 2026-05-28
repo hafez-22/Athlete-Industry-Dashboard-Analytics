@@ -53,5 +53,6 @@ The drill-through target page automatically updates context filters, deploying a
     
 * **Performance Outliers:** Despite the sweeping regional contraction, corporate customer accounts like **Balanced Store** and **Monsteroryx** remained highly resilient, locking in individual revenue streams of **$0.30M** respectively.
 
-### 🎯 Correlation & Analytical Takeaway
-Connecting the executive baseline with the localized deep-dive uncovers a critical strategic reality: **Macro performance success can easily mask deep regional vulnerabilities.** Globally, the *Protein* category is the business’s primary economic driver, but inside the Canadian market—specifically within Toronto—that exact same category became the primary source of revenue erosion. This proves that a uniform global strategy fails when applied to localized demand drops. By bridging these two views through data modeling and drill-through architecture, the business transforms a standard visual asset into an actionable diagnostic tool—instantly pinpointing the exact city (Toronto) and the exact product catalog (Protein) requiring immediate tactical intervention and inventory realignment.
+### Analytical Takeaway
+
+The analysis highlights a strong overall business performance driven by revenue growth, higher sales volume, and improved cost efficiency. However, the data also shows a heavy dependence on the Protein category as the primary revenue driver.
